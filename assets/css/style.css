@@ -1,0 +1,71 @@
+@font-face { font-family: 'bmy'; src: url(../font/BMYEONSUNG.ttf) format('truetype');}
+  	*{ margin: 0; padding: 0; box-sizing: border-box;}
+  	body{
+  		background-color: #009999;
+  		color: white;
+  		font-family: 'bmy';
+  		margin-bottom: 500px;
+  	}
+  	#wrap{
+  		width: 1025px;
+  		height: 100%;
+  		margin: 0 auto;
+  		font-size: 25px;
+  	}
+
+  	#view{
+  		margin-top: 100px;
+  		width: 1000px;
+  		overflow-x: hidden;
+  		height: 800px;
+  		overflow-y: scroll;
+  		font-size: 25px;
+  		font-weight: bold;
+  		/*text-align: center;*/
+  	}
+
+  	#wrap h1{
+  		margin-top: 50px;
+  		text-align: center;
+  		margin-bottom: 50px;
+  	}
+
+  	#write{
+  		text-align: center;
+  	}
+
+  	#writer{
+  		width: 100px;
+  		height: 30px;
+  	}
+
+  	#content{
+  		width: 300px;
+  		height: 30px;
+  	}
+
+  	#submit{
+  		width: 200px;
+  		height: 30px;
+  		color: white;
+  		background-color: rgba(255,255,255,0.3);
+  		outline: 0;
+  	}
+
+  	.counter{
+      width: 100%;
+      height: 200px;
+  		text-align: center;
+  		border: 3px solid white;
+  		padding: 30px;
+      margin-bottom: 50px;
+      margin-top: 100px;
+      margin-bottom: 100px;
+  	}
+
+    .img{
+      width: 100%;
+      height: 500px;
+      overflow-x: hidden;
+      overflow-y: scroll;
+    }
